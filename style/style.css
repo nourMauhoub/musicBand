@@ -1,0 +1,80 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1d2671cc), to(#c33764cc)), url("../assets/crew3.jpg");
+  background-image: linear-gradient(#1d2671cc, #c33764cc), url("../assets/crew3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+nav {
+  margin: 0 1em;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  width: 4em;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  margin: .5em 0;
+  cursor: pointer;
+}
+
+nav ul {
+  display: none;
+}
+
+.burger-menu {
+  width: 2em;
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.hero-content {
+  width: 60%;
+  margin: auto;
+  padding: 9em 0;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.hero-content p {
+  width: 90%;
+  font: 1em sans-serif;
+}
+
+.hero-content .explore-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: capitalize;
+  padding: 1em;
+  float: right;
+}
+
+.hero-content .left-arrow {
+  width: .7em;
+  fill: #ffffff;
+  margin: .4em;
+}
+/*# sourceMappingURL=style.css.map */
